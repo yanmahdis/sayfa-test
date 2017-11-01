@@ -1,2 +1,2 @@
 # sayfa-test
-Test Commit
+Trigger jenkin automatically
