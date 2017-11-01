@@ -1,0 +1,17 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# dist directory
+/dist/
+
+# coverage directory
+/coverage/
+testResults.xml
+
+# misc
+npm-debug.log
+.vscode/launch.json
