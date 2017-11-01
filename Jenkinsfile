@@ -1,5 +1,5 @@
 node('docker') {
-  def image = docker.image('_/node')
+  def image = docker.image('node')
   image.pull()
   image.inside {
     try {
