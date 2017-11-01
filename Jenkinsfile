@@ -6,6 +6,5 @@ node {
              npm --version
              git --version
         '''
-      }
   }
 }
