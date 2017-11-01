@@ -1,6 +1,12 @@
 node {
-  stage 'stage 1'
-  echo 'hello world 1'
-  stage 'stage 2'
-  echo 'hello world 2'
+  stage('Check Environment') {
+            sh '''
+               env
+               node --version
+               npm --version
+               git --version
+            '''
+
+            println "[DEBUG-DeployStage] - aws_creds = ${env.BRANCH_NAME}"
+  }
 }
